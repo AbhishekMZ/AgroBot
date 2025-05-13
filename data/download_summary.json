@@ -1,0 +1,9 @@
+{
+    "download_time": 1747158933.0729287,
+    "results": {
+        "aerial_crop_weed": true,
+        "seed_corp_weed": true,
+        "weed_insect_50k": true,
+        "weed_risk_dataset": true
+    }
+}

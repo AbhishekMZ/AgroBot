@@ -1,0 +1,29 @@
+# config/settings.yaml
+camera:
+  width: 640
+  height: 480
+  framerate: 30
+
+model:
+  path: "models/plant_detector_int8.tflite"
+  input_size: [224, 224]
+  threshold: 0.5
+  labels: "models/labels.txt"
+
+chassis:
+  default_speed: 50
+  max_speed: 100
+
+sprayer:
+  default_duration: 1.5  # seconds
+  min_duration: 0.5
+  max_duration: 3.0
+
+communication:
+  port: "/dev/ttyACM0"  # or "COM3" on Windows
+  baud_rate: 115200
+  timeout: 1.0
+
+app:
+  log_level: "INFO"
+  detection_interval: 0.5  # seconds

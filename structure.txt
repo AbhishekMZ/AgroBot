@@ -1,0 +1,22 @@
+agrobot/
+├── config/
+│   └── settings.yaml      # Configuration parameters
+├── hal/                   # Hardware Abstraction Layer
+│   ├── __init__.py
+│   ├── camera.py
+│   ├── chassis.py
+│   └── sprayer.py
+├── core/                  # Core Logic Layer
+│   ├── __init__.py
+│   ├── inference.py
+│   └── decision.py
+├── app/                   # Application Layer
+│   ├── __init__.py
+│   └── controller.py
+├── communication/         # Optional: For Arduino/Pi communication
+│   ├── __init__.py
+│   └── serial_comm.py
+├── utils/                 # Utilities
+│   ├── __init__.py
+│   └── logging.py
+└── main.py                # Entry point

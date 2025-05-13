@@ -1,0 +1,43 @@
+The Raspberry Pi Zero 2 W can run lightweight ML models, especially those optimized for edge devices. Here are some other models (besides YOLO-tiny) that work reasonably well:
+
+✅ 1. TensorFlow Lite (TFLite) Models
+These are optimized for low-power devices like the Pi Zero 2 W:
+
+MobileNet V1/V2 (Image Classification)
+
+Lightweight, decent accuracy, runs in ~1–2s per image
+
+EfficientDet-Lite (Object Detection)
+
+Slower than YOLO-tiny but usable at small input sizes
+
+PoseNet (Human Pose Estimation)
+
+Works with still images, not ideal for real-time
+
+Face Detection / Face Landmark models
+
+Can detect faces and key points (eyes, nose, mouth)
+
+Keyword Spotting (Speech Recognition)
+
+For basic voice control (e.g., "yes", "no", etc.)
+
+✅ 2. OpenCV DNN Models
+OpenCV’s deep neural network (DNN) module can run:
+
+SSD-MobileNet (Object Detection)
+
+Similar to YOLO-tiny in performance
+
+Face Detection with Caffe or ONNX models
+
+✅ 3. Custom Trained Models (Quantized to TFLite)
+You can convert your own TensorFlow or Keras models to .tflite format and run them on the Pi Zero 2 W if quantized and lightweight.
+
+⚠ Tips for Performance:
+Use input resolution like 160×160 or 224×224
+
+Prefer INT8 quantized models (much faster, less RAM)
+
+Avoid PyTorch or full TensorFlow (too heavy for Pi Zero 2 W)

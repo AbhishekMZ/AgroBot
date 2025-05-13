@@ -1,0 +1,8 @@
+{
+    "dataset_name": "AISeedCorp/weeds-updated",
+    "description": "Updated weed dataset from AISeedCorp",
+    "stats": {
+        "images": 2100,
+        "annotations": 0
+    }
+}
