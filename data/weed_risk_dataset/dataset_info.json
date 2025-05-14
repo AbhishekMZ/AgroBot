@@ -1,7 +1,0 @@
-{
-    "dataset_name": "AdamStormed22/weed-risk-reg-vqa-dataset-no-bbx",
-    "description": "Weed risk dataset without bounding boxes",
-    "stats": {
-        "images": 1239
-    }
-}

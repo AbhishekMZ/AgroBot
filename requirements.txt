@@ -1,0 +1,14 @@
+# Python packages for AgroBot development environment (PC)
+
+tensorflow>=2.8.0       # For model training, conversion, and analysis
+numpy>=1.20.0
+pyserial>=3.5
+opencv-python-headless>=4.5.0 # For image processing (headless is smaller)
+tflite>=2.8.0           # TensorFlow Lite schema bindings
+
+# Optional, but recommended for development:
+# jupyterlab             # For notebooks and experimentation
+# matplotlib             # For plotting data and images
+# pillow                 # Image manipulation, often a dependency for others
+# scikit-learn           # For general ML utilities and metrics
+# albumentations         # For advanced image augmentation
