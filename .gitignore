@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+Understanding/
+# Data
+data/
+datasets/
+output/
+*.h5
+*.tflite
+*.pth
+*.ckpt
+*.log
+# System
+.DS_Store
+Thumbs.db
+# VSCode
+.vscode/
